@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_01"
+        android:title="@string/pref_spirito_santo" />
+    
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_1"
+        android:title="@string/pref_title_social_recommendations" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_2"
+        android:title="@string/pref_padre_ave_gloria" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_3"
+        android:title="@string/pref_passo_biblico_mistero" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_4"
+        android:title="@string/pref_meditazione_mistero" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_02"
+        android:title="@string/pref_eterno_riposo" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_5"
+        android:title="@string/pref_invocazione_fatima" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_6"
+        android:title="@string/pref_maria_regina_pace" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_7"
+        android:title="@string/pref_litanie_lauretane" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_8"
+        android:title="@string/pref_litanie_latino" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_9"
+        android:title="@string/pref_no_spegnischermo" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox_10"
+        android:title="@string/pref_tap_on_screen" />
+
+</PreferenceScreen>

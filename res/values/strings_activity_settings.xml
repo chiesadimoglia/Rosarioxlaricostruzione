@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Inizia col Credo Apostolico</string>
+    <string name="pref_padre_ave_gloria">Includi Padre, tre Ave e Gloria all\'avvio</string>
+    <string name="pref_passo_biblico_mistero">Includi il passo bibblico dopo il mistero</string>
+    <string name="pref_meditazione_mistero">Includi la meditazione dopo il mistero</string>
+    <string name="pref_invocazione_fatima">Includi l\'invocazione di Fatima "Gesu\' Mio"</string>
+    <string name="pref_maria_regina_pace">Includi "Maria Regina della pace"</string>
+    <string name="pref_litanie_lauretane">Includi le Litanie Lauretane</string>
+    <string name="pref_litanie_latino">Litanie Lauretane in lingua latina</string>
+    <string name="pref_no_spegnischermo">Evita spegni schermo</string>
+    <string name="pref_tap_on_screen">Nascondi pulsanti "Avanti" e "Indietro"</string>
+    <string name="pref_spirito_santo">Inizia con la sequenza dello Spirito Santo</string>
+    <string name="pref_eterno_riposo">Includi la preghiera "Eterno Riposo"</string>
+
+</resources>
