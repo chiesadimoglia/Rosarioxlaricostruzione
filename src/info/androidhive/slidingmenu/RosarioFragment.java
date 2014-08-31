@@ -177,3 +177,6 @@ public class RosarioFragment extends Fragment {
 		}
 	}
 }
+
+
+//CIAO DA PEX!!!
