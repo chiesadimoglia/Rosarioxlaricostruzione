@@ -35,7 +35,7 @@ public class RosarioFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_rosario, container, false);
          
         return rootView;
-    }
+    } 
 	
 	@Override
     public void onActivityCreated(Bundle savedInstanceState) {

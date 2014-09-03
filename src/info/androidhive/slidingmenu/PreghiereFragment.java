@@ -1,5 +1,7 @@
 package info.androidhive.slidingmenu;
 
+import info.androidhive.slidingmenu.classi.Preghiera;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -34,7 +36,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.altervista.rosarioricostruzione.classi.Preghiera;
 
 public class PreghiereFragment extends Fragment {
 	
