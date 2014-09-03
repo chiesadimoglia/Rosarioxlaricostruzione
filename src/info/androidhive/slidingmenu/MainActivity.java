@@ -11,6 +11,7 @@ import android.app.FragmentManager;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
@@ -38,6 +39,7 @@ public class MainActivity extends Activity {
 
 	private ArrayList<NavDrawerItem> navDrawerItems;
 	private NavDrawerListAdapter adapter;
+	private SQLiteDatabase db;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,8 @@ public class MainActivity extends Activity {
 		
 		Intent intent = new Intent(this, IntroAnctivity.class);
 	    startActivity(intent);
+	    
+	    initDB();
 		
 		mTitle = mDrawerTitle = getTitle();
 
@@ -233,4 +237,11 @@ public class MainActivity extends Activity {
 		mDrawerToggle.onConfigurationChanged(newConfig);
 	}
 
+	
+	private void initDB() {
+		db =  this.openOrCreateDatabase("MisteriDB", MODE_PRIVATE, null);
+	    db.execSQL("CREATE TABLE IF NOT EXISTS " + "misteri_rosario" + " (Tipo VARCHAR(10), Num INT, Testo_mistero TEXT, Brano TEXT, Meditazione TEXT);");
+	    
+	    //TODO: inserire dati in db.
+	}
 }
