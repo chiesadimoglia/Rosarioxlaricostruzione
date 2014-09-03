@@ -154,7 +154,7 @@ public class RosarioFragment extends Fragment {
 		
 		
 		
-		//Funziona?
+		
 		
 	}
 	

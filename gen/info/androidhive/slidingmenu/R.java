@@ -66,7 +66,7 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f0b000a;
-        public static final int action_settings=0x7f0b0011;
+        public static final int action_settings=0x7f0b0013;
         public static final int button_info=0x7f0b0001;
         public static final int button_rosario=0x7f0b0000;
         public static final int counter=0x7f0b0008;
@@ -77,9 +77,11 @@ public final class R {
         public static final int imageView_caso=0x7f0b0010;
         public static final int imageView_next=0x7f0b000c;
         public static final int imageView_rosario=0x7f0b000f;
+        public static final int imageView_tipo=0x7f0b0011;
         public static final int listView_Preghiere=0x7f0b000b;
         public static final int list_slidermenu=0x7f0b0005;
         public static final int textView_chiesa_intro=0x7f0b0002;
+        public static final int textView_nome=0x7f0b0012;
         public static final int textView_rosario=0x7f0b000e;
         public static final int title=0x7f0b0007;
         public static final int txtLabel=0x7f0b0009;
@@ -94,6 +96,7 @@ public final class R {
         public static final int fragment_preghiere=0x7f030006;
         public static final int fragment_rosario=0x7f030007;
         public static final int fragment_whats_hot=0x7f030008;
+        public static final int preghiera_list_item=0x7f030009;
     }
     public static final class menu {
         public static final int intro2=0x7f0a0000;
