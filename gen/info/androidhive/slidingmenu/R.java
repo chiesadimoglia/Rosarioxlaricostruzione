@@ -9,13 +9,25 @@ package info.androidhive.slidingmenu;
 
 public final class R {
     public static final class array {
+        public static final int dolore_br=0x7f070007;
+        public static final int dolore_med=0x7f070008;
+        public static final int dolore_mis=0x7f070006;
+        public static final int gioia_br=0x7f070001;
+        public static final int gioia_med=0x7f070002;
+        public static final int gioia_mis=0x7f070000;
+        public static final int gloria_br=0x7f07000a;
+        public static final int gloria_med=0x7f07000b;
+        public static final int gloria_mis=0x7f070009;
+        public static final int luce_br=0x7f070004;
+        public static final int luce_med=0x7f070005;
+        public static final int luce_mis=0x7f070003;
         /**  Nav Drawer List Item Icons 
  Keep them in order as the titles are in 
          */
-        public static final int nav_drawer_icons=0x7f080001;
+        public static final int nav_drawer_icons=0x7f07000d;
         /**  Nav Drawer Menu Items 
          */
-        public static final int nav_drawer_items=0x7f080000;
+        public static final int nav_drawer_items=0x7f07000c;
     }
     public static final class attr {
     }
@@ -66,7 +78,7 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f0b000a;
-        public static final int action_settings=0x7f0b0011;
+        public static final int action_settings=0x7f0b0014;
         public static final int button_info=0x7f0b0001;
         public static final int button_rosario=0x7f0b0000;
         public static final int counter=0x7f0b0008;
@@ -77,9 +89,12 @@ public final class R {
         public static final int imageView_caso=0x7f0b0010;
         public static final int imageView_next=0x7f0b000c;
         public static final int imageView_rosario=0x7f0b000f;
+        public static final int imageView_tipo=0x7f0b0012;
         public static final int listView_Preghiere=0x7f0b000b;
         public static final int list_slidermenu=0x7f0b0005;
+        public static final int textViewPreg=0x7f0b0011;
         public static final int textView_chiesa_intro=0x7f0b0002;
+        public static final int textView_nome=0x7f0b0013;
         public static final int textView_rosario=0x7f0b000e;
         public static final int title=0x7f0b0007;
         public static final int txtLabel=0x7f0b0009;
@@ -94,6 +109,7 @@ public final class R {
         public static final int fragment_preghiere=0x7f030006;
         public static final int fragment_rosario=0x7f030007;
         public static final int fragment_whats_hot=0x7f030008;
+        public static final int preghiera_list_item=0x7f030009;
     }
     public static final class menu {
         public static final int intro2=0x7f0a0000;
@@ -101,33 +117,33 @@ public final class R {
         public static final int main=0x7f0a0002;
     }
     public static final class string {
-        public static final int action_settings=0x7f070001;
-        public static final int app_name=0x7f070000;
+        public static final int action_settings=0x7f080001;
+        public static final int app_name=0x7f080000;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f070005;
-        public static final int drawer_close=0x7f070004;
-        public static final int drawer_open=0x7f070003;
-        public static final int hello_world=0x7f070002;
-        public static final int pref_eterno_riposo=0x7f070015;
+        public static final int desc_list_item_icon=0x7f080005;
+        public static final int drawer_close=0x7f080004;
+        public static final int drawer_open=0x7f080003;
+        public static final int hello_world=0x7f080002;
+        public static final int pref_eterno_riposo=0x7f080015;
         /**  Strings related to Settings 
  Example General settings 
          */
-        public static final int pref_header_general=0x7f070009;
-        public static final int pref_invocazione_fatima=0x7f07000e;
-        public static final int pref_litanie_latino=0x7f070011;
-        public static final int pref_litanie_lauretane=0x7f070010;
-        public static final int pref_maria_regina_pace=0x7f07000f;
-        public static final int pref_meditazione_mistero=0x7f07000d;
-        public static final int pref_no_spegnischermo=0x7f070012;
-        public static final int pref_padre_ave_gloria=0x7f07000b;
-        public static final int pref_passo_biblico_mistero=0x7f07000c;
-        public static final int pref_spirito_santo=0x7f070014;
-        public static final int pref_tap_on_screen=0x7f070013;
-        public static final int pref_title_social_recommendations=0x7f07000a;
-        public static final int title_activity_intro2=0x7f070007;
-        public static final int title_activity_intro_anctivity=0x7f070006;
-        public static final int title_activity_settings=0x7f070008;
+        public static final int pref_header_general=0x7f080009;
+        public static final int pref_invocazione_fatima=0x7f08000e;
+        public static final int pref_litanie_latino=0x7f080011;
+        public static final int pref_litanie_lauretane=0x7f080010;
+        public static final int pref_maria_regina_pace=0x7f08000f;
+        public static final int pref_meditazione_mistero=0x7f08000d;
+        public static final int pref_no_spegnischermo=0x7f080012;
+        public static final int pref_padre_ave_gloria=0x7f08000b;
+        public static final int pref_passo_biblico_mistero=0x7f08000c;
+        public static final int pref_spirito_santo=0x7f080014;
+        public static final int pref_tap_on_screen=0x7f080013;
+        public static final int pref_title_social_recommendations=0x7f08000a;
+        public static final int title_activity_intro2=0x7f080007;
+        public static final int title_activity_intro_anctivity=0x7f080006;
+        public static final int title_activity_settings=0x7f080008;
     }
     public static final class style {
         /** 

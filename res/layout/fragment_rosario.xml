@@ -49,4 +49,12 @@
         android:layout_marginLeft="14dp"
         android:layout_toRightOf="@+id/textView_rosario" />
 
+    <TextView
+        android:id="@+id/textViewPreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/counter_text_color" />
+
 </RelativeLayout>
